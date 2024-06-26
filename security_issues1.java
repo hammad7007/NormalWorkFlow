@@ -11,7 +11,7 @@ public class SqlInjectionExample {
             
             System.out.println("Enter username to search:");
             String username = scanner.nextLine();
-
+            System.out.println(username);
             String query = "SELECT * FROM users WHERE username = '" + username + "'";
             Statement stmt = conn.createStatement();
             stmt.executeQuery(query);
