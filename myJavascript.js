@@ -12,8 +12,6 @@ function calculateDiscount(price) {
     return price * 0.85; // Magic number for discount rate
 }
 
-// 4. Missing 'use strict'
-// Not using 'use strict' to enforce stricter parsing and error handling
 
 // 5. Loose equality check
 function isZero(count) {
